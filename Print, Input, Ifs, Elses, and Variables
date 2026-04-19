@@ -17,7 +17,7 @@ input("Hello, what is your name?")
 print("That's a nice name!")
 
 This will ask the user what their name is. The print() telling the user that they have a nice name will not run until the user enters their name.
-Also, you can put input() in a variable, like this: 
+Also, you can put input() in a variable, like this:   
 ask_name = input("What is your name?")
 
 This is helpful if you want to access the input again later, like in an if statement. We'll go over if statements in a moment.
