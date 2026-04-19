@@ -1,4 +1,5 @@
 Here, I'll explain the print and input functions, ifs and elses, and variables.
+
 VARIABLES
 Variables are kind of like pieces of information in code. If you want to store some data, then use a variable! Example:
 age = 10
