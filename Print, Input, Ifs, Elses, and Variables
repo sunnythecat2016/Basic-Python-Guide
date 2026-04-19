@@ -1,0 +1,53 @@
+Here, I'll explain the print and input functions, ifs and elses, and variables.
+VARIABLES
+Variables are kind of like pieces of information in code. If you want to store some data, then use a variable! Example:
+age = 10
+Now, what "age" is will be stored as data in your program.
+PRINT
+First of all, a print() will display text on the screen. For example:
+print("Hello, world!")
+
+That will display the text "Hello, world!" when you run the code.
+
+INPUT
+An input() will display text like a print() - but it also asks the user for input. Unlike a print, the next line of code will not run until the user enters
+their input. Here's an example:
+input("Hello, what is your name?")
+print("That's a nice name!")
+
+This will ask the user what their name is. The print() telling the user that they have a nice name will not run until the user enters their name.
+Also, you can put input() in a variable, like this: 
+ask_name = input("What is your name?")
+
+This is helpful if you want to access the input again later, like in an if statement. We'll go over if statements in a moment.
+
+IF & ELSE
+If and Else statements are... well, if THIS is true, then THIS will happen. If not, then THIS will happen. Example:
+if ask_name == "Sunny":
+    print("Wow! That's my name too!")
+else: 
+    print("Okay! That's a nice name!")
+
+You need to indent everything inside an if or else by 4 spaces. You also need 2 equal signs because 2 of them will check to see if the variable IS EQUAL TO
+the thing you want it to be. If you are checking if the variable is equal to a phrase, you need quotes around the phrase, like in the example I showed you.
+However, if you want to check if a variable is equal to ANOTHER variable, you won't need the quotes:
+if your_favorites == my_favorites:
+    print("Whoa! We like the same things!")
+
+
+Here's a code snippet with everything I went over:
+
+
+
+print("Hello!") - Print statement greeting the user
+my_name = "Sunny" - Variable with a name
+ask_name = input("What's your name?") - Input asking the user for their name
+if ask_name == "Sunny": - If-statement checking whether the name input is equal to the phrase "Sunny"
+#The line above can be replaced with "if ask_name == my_name:"
+    print("Wow! That's my name as well!") - Print statement informing the user that they have the same name
+else: - Else statement that checks what will happen if the input is NOT equal to the phrase "Sunny"
+    print("Oh, okay. That's a nice name!") - Print statement informing the user that they have a nice name
+
+
+That's it for today. I hope you learned something from this guide! Catch you later!
+
