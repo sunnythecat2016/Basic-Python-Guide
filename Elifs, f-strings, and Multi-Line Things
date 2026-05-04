@@ -1,1 +1,15 @@
+Hi people, today I'm going to continue my Python guide by explaining elif statements, f-strings, and multi-line stuff. Meow!
+
+ELIFS
+An elif is used in an if-statement. It means if-else. You can use it if you want to have multiple outcomes of an if. Example:
+
+if name == "Sunny":
+    print("That's my name too!")
+elif name == "Olivia":
+    print("Whoa! That's my friend's name!")
+else:
+    print("That's a nice name!")
+
+
+F-STRINGS
 
